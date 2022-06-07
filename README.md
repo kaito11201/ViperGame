@@ -5,6 +5,9 @@
 - C++14
 - Visual Studio 2022
 
+## 実行方法
+ViperGame.exeを起動
+
 ## ゲーム画面
 ![play](images/play.png)
 
