@@ -64,7 +64,7 @@ int main() {
 		print.rule();
 		print.startMessage();
 		for (;;) {
-			if (isKeyPressed('S'))
+			if (isKeyPressed('S') && isKeyPressed('K'))
 				break;
 		}
 
