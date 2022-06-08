@@ -224,8 +224,8 @@ void Print::rule()
 void Print::startMessage()
 {
     setColor(WHITE);
-    setCursorPos(_width / 2 - 13, _height / 2);
-    cout << "Press [S] and [K] to start!!";
+    setCursorPos(_width / 2 - 10, _height / 2);
+    cout << "Press [S] to start!!";
 }
 
 void Print::judgeMessage(string msg)

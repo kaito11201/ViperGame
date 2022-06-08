@@ -64,15 +64,13 @@ int main() {
 		print.rule();
 		print.startMessage();
 		for (;;) {
-			if (isKeyPressed('S') && isKeyPressed('K'))
+			if (isKeyPressed('S'))
 				break;
 		}
 
 		// ƒQ[ƒ€ŠJn
 		print.field();
 		print.foods(food.getFoods());
-		print.snake(snake.getSnake(), PLAYER1_COLOR);
-		print.snake(snake2.getSnake(), PLAYER2_COLOR);
 
 		for (int count = 0;; count++) {
 
